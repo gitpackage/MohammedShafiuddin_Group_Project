@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Medication Manager</string>
+
+    <item type="id" name="medNameID"/>
+    <item type="id" name="doseAmountID"/>
+    <item type="id" name="hourlyFreqID"/>
+    <item type="id" name="daysByDoseID"/>
+</resources>

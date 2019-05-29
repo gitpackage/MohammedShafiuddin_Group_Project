@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="40dp"
+        android:textAlignment="viewStart"
+        android:layout_toRightOf="@+id/homeButton"
+        android:text="Medication Manager"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"/>
+
+
+</android.support.v7.widget.Toolbar>

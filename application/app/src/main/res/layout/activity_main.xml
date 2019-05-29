@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <include
+        android:id="@+id/homebar"
+        layout="@layout/home_bar" />
+
+    <TextView
+        android:id="@+id/addMedsText"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add New\nMedication"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/addNewMedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Add New\nMedication" />
+
+    <ImageButton
+        android:id="@+id/currentMedsButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/round_button"
+        android:padding="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_icon"
+
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homebar" />
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/round_button"
+        android:padding="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gear_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/addNewMedButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/round_button"
+        android:padding="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/plus_icon"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homebar" />
+
+    <ImageButton
+        android:id="@+id/medsHistoryButton"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/round_button"
+        android:padding="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/book_icon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/currentMedsText"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="20dp"
+        android:text="Manage Current\nMedications"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentMedsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Manage Current\nMedications" />
+
+    <TextView
+        android:id="@+id/medsHistoryText"
+        android:layout_width="168dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:text="History of Taken\nMedications"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/medsHistoryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="History of Taken\nMedications" />
+
+    <TextView
+        android:id="@+id/settingsText"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="12dp"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/settingsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Settings" />
+
+    <TextView
+        android:id="@+id/currentDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="80dp"
+        android:text="Tuesday,\nMarch 5th 2019"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
