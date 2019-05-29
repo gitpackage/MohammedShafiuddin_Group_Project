@@ -9,7 +9,8 @@ allow users to set an alarm to remind dosage time or for
 overdose 
 warning.
  
-Make sure to download an Emulator 
+Emulator (Virtual device) Pixel 2 XL API 28
+
 Instructions to run this APP as follows:
 1. Download and unzip the file
 
